@@ -6,8 +6,8 @@ function callMe() {
 
 
 function crazy() {
-  // fix the code in here:
-  thisIsCrazy();
+  return thisIsCrazy();
+}
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
