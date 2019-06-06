@@ -4,15 +4,8 @@ function callMe() {
   return lyric;
 }
 
-
-function crazy() {
-  return thisIsCrazy();
-}
-
-var thisIsCrazy = function (){
-function() {
-    return "hey!!!"
-  }
+function thisIsCrazy() {
+  console.log("hey!!!")
 }
 
 function sayMyName() {
